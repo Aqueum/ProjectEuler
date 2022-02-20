@@ -1,6 +1,6 @@
 x = 1
 y = 2
-while x < 10:
+print(y)
 while x < 4000000:
   next = x + y
   x = y
