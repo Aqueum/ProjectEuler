@@ -9,7 +9,7 @@ def multiple(number, divisor):
 
 x = 0
 y = 0
-while x < 10:
+while x < 1000:
   if multiple(x,3) or multiple(x,5):
     y += x
   x += 1
