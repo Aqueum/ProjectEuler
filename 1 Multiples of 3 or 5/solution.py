@@ -7,4 +7,11 @@ def multiple(number, divisor):
   else:
     return False
 
-print(multiple(5,2))
+x = 0
+y = 0
+while x < 10:
+  if multiple(x,3) or multiple(x,5):
+    y += x
+  x += 1
+
+print(y)
